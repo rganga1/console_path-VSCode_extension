@@ -2,17 +2,33 @@
   "name": "console-path",
   "displayName": "console_path",
   "description": "\"A snippet to get the line and path with console_log\"",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
-    "vscode": "^1.71.0"
+    "vscode": "^1.1.0"
   },
+  "publisher": "rakeshg",
+	"author": {
+		"name": "Rakesh_G"
+	},
+	"license": "GPLv3",
+	"homepage": "https://github.com/rganga1/console_path-VSCode_extension",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rganga1/console_path-VSCode_extension/"
+	},
+	"icon": "images/logo.webp",
+	"keywords": [
+    "console log",
+    "console path",
+    "debug"
+  ],
   "categories": [
     "Snippets"
   ],
   "contributes": {
     "snippets": [
       {
-        "language": "'javascript'",
+        "language": "javascript",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
