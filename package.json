@@ -1,0 +1,20 @@
+{
+  "name": "console-path",
+  "displayName": "console_path",
+  "description": "\"A snippet to get the line and path with console_log\"",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "'javascript'",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
