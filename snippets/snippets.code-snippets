@@ -1,1 +1,17 @@
-{}
+{
+  "Console Log": {
+    "prefix": "cl",
+    "description": "Log output to console",
+    "body": "console.log($1)${2:;}"
+  },
+  "Console Line": {
+    "prefix": "cll",
+    "description": "Log output to console with line_no",
+    "body": "console.log(`--Line no => ${new Error().stack.split('\\n')[1].split(':')[2]}--`,$1)${2:;} /*prettier-ignore*/" //perfect one - no multilines by prettier
+  },
+  "Console Path": {
+    "prefix": "clp",
+    "description": "Log output to console with file_path which is clickable",
+    "body": "console.log(`-->[${new Error().stack.split('\\n')[1].split(' ').at(-1)}]<--`,$1)${2:;} /*prettier-ignore*/"
+  }
+}
