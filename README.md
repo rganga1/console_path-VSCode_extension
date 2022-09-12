@@ -1,6 +1,6 @@
 # console-path README
 
-This extension is primarily useful for debugging with console log. Deliberate Error is genereated from which line no and file path are fetched.
+This extension is primarily useful for debugging with console log. Deliberate Error is genereated from which line no and file path are fetched. If prettier formatter dpn't format this line because of "prettier-ignore" statement at the end.
 
 ![Demo](images/VSCode_extension.gif)
 
